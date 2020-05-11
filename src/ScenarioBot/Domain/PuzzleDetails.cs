@@ -20,15 +20,15 @@ namespace ScenarioBot.Domain
         {
             PuzzleId = puzzle.Id;
             Question = puzzle.Question;
-            PossibleAnswers = puzzle.PosibleBranches.Select(x => x.Answer).ToList();
+            PossibleAnswers = puzzle.PossibleBranches.Select(x => x.Answer).ToList();
             NumberOfAttemptsLimit = puzzle.NumberOfAttemptsLimit;
-            WaitnigTime = puzzle.WaitingTime;
+            WaitingTime = puzzle.WaitingTime;
             IsLastPuzzle = puzzle.IsLastPuzzle;
-            ShowPosibleBranches = puzzle.ShowPosibleBranches;
+            ShowPossibleBranches = puzzle.ShowPossibleBranches;
             PuzzleWeight = puzzle.Weight;
             
             // для режима ожидания у нас свой диалог
-            PuzzleType = WaitnigTime.HasValue ? PuzzleType.WaitTextPuzzleDialog : puzzle.PuzzleType;
+            PuzzleType = WaitingTime.HasValue ? PuzzleType.WaitTextPuzzleDialog : puzzle.PuzzleType;
         }
 
         public bool IsLastPuzzle { get; set; }
@@ -55,10 +55,10 @@ namespace ScenarioBot.Domain
         /// <summary>
         /// Необходимость показать пользователю возможные ответы
         /// </summary>
-        public bool ShowPosibleBranches { get; set; }
+        public bool ShowPossibleBranches { get; set; }
         
         public string ActualAnswer { get; set; }
-        public int? WaitnigTime { get; set; }
+        public int? WaitingTime { get; set; }
 
         /// <summary>
         ///     сколько раз пользователь вводил ответ
@@ -129,9 +129,9 @@ namespace ScenarioBot.Domain
         {
             QuestionAskedAt = value;
 
-            if (!WaitnigTime.HasValue) return;
+            if (!WaitingTime.HasValue) return;
 
-            AnswerTimeNoLessThan = QuestionAskedAt.Value.AddMinutes(WaitnigTime.Value);
+            AnswerTimeNoLessThan = QuestionAskedAt.Value.AddMinutes(WaitingTime.Value);
         }
 
         public int GetRemainMinutesToAnswer(DateTime now)

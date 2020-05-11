@@ -37,7 +37,7 @@ namespace ScenarioBot.Dialogs
             var puzzleDetails = (PuzzleDetails) stepContext.Options;
 
             var reply = stepContext.Context.Activity.CreateReply(puzzleDetails.Question);
-            if (puzzleDetails.ShowPosibleBranches)
+            if (puzzleDetails.ShowPossibleBranches)
             {   
                 reply.SuggestedActions = new SuggestedActions()
                 {

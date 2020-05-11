@@ -80,6 +80,10 @@
     <Content Include="raw_data\2019.DotNext.Msk\Robbery.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Remove="raw_data\2020.DotNext.Spb\MankindUnited.json" />
+    <Content Include="raw_data\2020.DotNext.Spb\MankindUnited.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>

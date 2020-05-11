@@ -19,7 +19,7 @@
 //            var statements = new List<Statement>();
 //            foreach (var item in scenario.Collection)
 //            {
-//                foreach (var branch in item.PosibleBranches)
+//                foreach (var branch in item.PossibleBranches)
 //                {
 //                    statements.Add(new EdgeStatement(item.Id, branch.GoToId, new Dictionary<Id, Id> { { "label", $"{branch.Answer}" } }.ToImmutableDictionary()));
 //                }

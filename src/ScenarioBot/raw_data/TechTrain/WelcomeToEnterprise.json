@@ -7,7 +7,7 @@
       "Weight": 3,
       "Question": "Привет! Заказчик прислал новые требования - надо запилить новую фичу. Работать должно под mac os. А код должен быть написан на C#. Какой рантайм выберешь?",
       "PuzzleType": 0,
-      "PosibleBranches": [
+      "PossibleBranches": [
         {
           "Answer": "CoreCLR",
           "GoToId": "RuntimeSelected"
@@ -25,7 +25,7 @@
       "Weight": 3,
       "Question": "Ты не знаешь, какие рантаймы бывают? Рекомендую спросить у ребят из компаний Arcadia и Контур",
       "PuzzleType": 0,
-      "PosibleBranches": [
+      "PossibleBranches": [
         {
           "Answer": "CoreCLR",
           "GoToId": "RuntimeSelected"
@@ -43,7 +43,7 @@
       "Weight": 1,
       "Question": "Ok. Начинаем устанавливать твой рантайм на mac os. Кстати, какой IDE будешь пользоваться?",
       "PuzzleType": 0,
-      "PosibleBranches": [
+      "PossibleBranches": [
         {
           "Answer": "Visual Studio for Mac",
           "GoToId": "vs"
@@ -76,7 +76,7 @@
       "Weight": 3,
       "Question": "Однако.. Твоя компания не закупает лицензии на Rider и пользоваться им - незаконно. Что будешь использовать?",
       "PuzzleType": 0,
-      "PosibleBranches": [
+      "PossibleBranches": [
         {
           "Answer": "Visual Studio for Mac",
           "GoToId": "vs"
@@ -109,7 +109,7 @@
       "Weight": 3,
       "Question": "Открываешь студию, добавлешь nuget, а nuget-ведь не грузится, это все корпоративный прокси! В каком файле настраивается прокси для nuget?",
       "PuzzleType": 0,
-      "PosibleBranches": [
+      "PossibleBranches": [
         {
           "Answer": "nuget.config",
           "GoToId": "nugetconfigured"
@@ -127,7 +127,7 @@
       "Weight": 0,
       "Question": "Тебе всегда могут подсказать ребята из компаний Arcadia и Контур. Какой файл?",
       "PuzzleType": 0,
-      "PosibleBranches": [
+      "PossibleBranches": [
         {
           "Answer": "nuget.config",
           "GoToId": "nugetconfigured"
@@ -145,7 +145,7 @@
       "Weight": 5,
       "Question": "Ты запилил REST-сервис и хочешь поднять его в Docker. Однако, до сервера Nuget мы все равно достучаться не можем. Какой еще файл будешь править?",
       "PuzzleType": 0,
-      "PosibleBranches": [
+      "PossibleBranches": [
         {
           "Answer": ".dockerfile",
           "GoToId": "dockerfileconfigured"
@@ -172,7 +172,7 @@
       "Weight": 13,
       "Question": "Тадададам! Ты прошел путь корпоративных прокси! Теперь ты можешь работать в кровавом... Ну ты понял :) Конец!",
       "PuzzleType": 0,
-      "PosibleBranches": []
+      "PossibleBranches": []
     },
     {
       "IsLastPuzzle": true,
@@ -180,7 +180,7 @@
       "Weight": 0,
       "Question": "Не судьба тебе работать в больших компаниях...",
       "PuzzleType": 0,
-      "PosibleBranches": []
+      "PossibleBranches": []
     }
   ]
 }

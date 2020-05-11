@@ -37,7 +37,7 @@ namespace ScenarioBot.Domain
 
         public Puzzle()
         {
-            PosibleBranches = new List<AnswerToBranch>();
+            PossibleBranches = new List<AnswerToBranch>();
         }
 
         public Puzzle(string id) : this()
@@ -62,12 +62,12 @@ namespace ScenarioBot.Domain
         /// <summary>
         /// Необходимость показать пользователю возможные ответы
         /// </summary>
-        public bool ShowPosibleBranches { get; set; }
+        public bool ShowPossibleBranches { get; set; }
 
         /// <summary>
         ///     ветки развития. key - это ответ пользователя, value - ветка развития
         /// </summary>
-        public IList<AnswerToBranch> PosibleBranches { get; set; }
+        public IList<AnswerToBranch> PossibleBranches { get; set; }
 
         /// <summary>
         ///     ветка развития, когда не подошел ни один из ответов
@@ -91,7 +91,7 @@ namespace ScenarioBot.Domain
 
         public Puzzle AddBranch(string answer, string goTo)
         {
-            PosibleBranches.Add(new AnswerToBranch
+            PossibleBranches.Add(new AnswerToBranch
             {
                 Answer = answer,
                 GoToId = goTo
@@ -108,7 +108,7 @@ namespace ScenarioBot.Domain
 
         public string GetNextPossibleBranchId(string answer)
         {
-            var answerToBranches = PosibleBranches.FirstOrDefault(x =>
+            var answerToBranches = PossibleBranches.FirstOrDefault(x =>
                 string.Equals(x.Answer, answer, StringComparison.InvariantCultureIgnoreCase));
             if (answerToBranches != null) return answerToBranches.GoToId;
 

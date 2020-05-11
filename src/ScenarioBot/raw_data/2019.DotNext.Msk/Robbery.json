@@ -8,9 +8,9 @@
 			"Question": "Срочный выпуск новостей. В городе DotNext совершено ограбление. Граждане, будьте осторожны. Личность вора еще не установлена. Если вы увидите подозрительного человека – сообщите властям.\r\n",
 			"PuzzleType": 0,
 			"WaitingTime": 1,
-			"ShowPosibleBranches": true,
+			"ShowPossibleBranches": true,
 			"NumberOfAttemptsLimit":3,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "Далее",
 					"GoToId": "2"
@@ -24,9 +24,9 @@
 			"Question": "Среда. 6 ноября 2097 года. Вы - частный детектив. Мир охватила кибернетика. Люди постоянно пытаются себя как-то улучшать. Вы один из тех, кто до сих пор сохраняет целостный человеческий облик.\nПоследние пару месяцев нет ни одного дела и вы отчаявшись сидите в своем кресле, выпивая виски, и изучаете новости.\nВдруг к вам в кабинет вбегает запыхавшийся офицер полиции и просит вас его выслушать\r\n",
 			"PuzzleType": 0,
 			"WaitingTime": 1,
-			"ShowPosibleBranches": true,
+			"ShowPossibleBranches": true,
 			"NumberOfAttemptsLimit":3,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "Далее",
 					"GoToId": "3"
@@ -42,8 +42,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Свидетели",
 					"GoToId": "4"
@@ -67,8 +67,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Отправиться на поиски",
 					"GoToId": "5"
@@ -84,8 +84,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Отправиться к Неду",
 					"GoToId": "6"
@@ -101,8 +101,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Таксопарк",
 					"GoToId": "8"
@@ -122,8 +122,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Использовать терминал",
 					"GoToId": "9"
@@ -139,7 +139,7 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":5,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "Килограмм",
 					"GoToId": "10"
@@ -158,9 +158,9 @@
 			"Question": "Терминал указывает местоположение нужной вам машины.\nНайдя ее, вы пытаетесь разобраться в маршрутах. Утром многие люди любят воспользоваться услугами такси, чтобы доехать до работы. Просмотрев записи поездок и конечные точки маршрутов, вы находите именно тот, что вам нужен. В заказе кроме конечного пункта у вас теперь есть и пункт отправки, а так же данные о пассажире.\r\n-Куда поехать?-",
 			"PuzzleType": 0,
 			"WaitingTime": 1,
-			"ShowPosibleBranches": true,
+			"ShowPossibleBranches": true,
 			"NumberOfAttemptsLimit":3,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "Адрес",
 					"GoToId": "12"
@@ -180,7 +180,7 @@
 			"PuzzleType": 0,
 			"WaitingTime": 3,
 			"NumberOfAttemptsLimit":3,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "FlyMore",
 					"GoToId": "10"
@@ -196,8 +196,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Утро",
 					"GoToId": "26"
@@ -224,9 +224,9 @@
 			"Question": "Адрес, который сообщил вам Нед, оказался верным. Но вот незадача – у двери электронный замок с паролем\nКажется у вас был инструмент который позволяет его взломать.\r\n",
 			"PuzzleType": 0,
 			"WaitingTime": 1,
-			"ShowPosibleBranches": true,
+			"ShowPossibleBranches": true,
 			"NumberOfAttemptsLimit":3,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "Воспользоваться инструментом",
 					"GoToId": "29"
@@ -242,7 +242,7 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":5,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "500",
 					"GoToId": "33"
@@ -262,8 +262,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Отправиться по адресу",
 					"GoToId": "12"
@@ -279,7 +279,7 @@
 			"PuzzleType": 0,
 			"WaitingTime": 3,
 			"NumberOfAttemptsLimit":3,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "FoxPower",
 					"GoToId": "33"
@@ -295,8 +295,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Обыскать ящики",
 					"GoToId": "13"
@@ -316,8 +316,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":1,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "The End",
 					"GoToId": "EndGame"
@@ -333,8 +333,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Открыть силой",
 					"GoToId": "201"
@@ -354,8 +354,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Продолжить",
 					"GoToId": "15"
@@ -370,9 +370,9 @@
 			"Question": "Осмотревшись вокруг, вы вспоминаете, что в далеких 2000х был некоторый способ не запоминать надоедливые данные авторизации\nТут получилось так же, на обратной стороне интерактивного рабочего стола была приклеена маленькая бумажка с подсказкой:\n4 Киборга тяжелее 5 Андроидов. Что тяжелее: 5 Киборгов или 6 Андроидов?",
 			"PuzzleType": 0,
 			"WaitingTime": 1,
-			"ShowPosibleBranches": true,
+			"ShowPossibleBranches": true,
 			"NumberOfAttemptsLimit":5,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "5 Киборгов",
 					"GoToId": "16"
@@ -391,9 +391,9 @@
 			"Question": "Успешно справившись с авторизацией, в почтовом ящике вы находите письмо с указанием адреса. А на рабочем столе файл со странным именем.\nОткрылся ящик стола, который был закрыт. Внутри вы видите баллон с газом, который сработал бы в ином случае\nВнутри ящика блокнот, который исписан одним единственным словом.\nУлик больше нет. Вы решаете поехать по адресу, который нашли на почте.\r\n",
 			"PuzzleType": 0,
 			"WaitingTime": 1,
-			"ShowPosibleBranches": true,
+			"ShowPossibleBranches": true,
 			"NumberOfAttemptsLimit":3,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "Далее",
 					"GoToId": "18"
@@ -409,7 +409,7 @@
 			"PuzzleType": 0,
 			"WaitingTime": 3,
 			"NumberOfAttemptsLimit":3,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "Patter",
 					"GoToId": "16"
@@ -425,8 +425,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Напасть",
 					"GoToId": "31"
@@ -446,8 +446,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Продолжить",
 					"GoToId": "33"
@@ -463,8 +463,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":5,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Убежать",
 					"GoToId": "202"
@@ -479,9 +479,9 @@
 			"Question": "Вы услышали громких хлопок и почувствовали как тепло растекается по груди\nвнезапно возникшая слабость подкосила ваши ноги и вы рухнули на пол так и не добравшись до двери\r\n",
 			"PuzzleType": 0,
 			"WaitingTime": 1,
-			"ShowPosibleBranches": true,
+			"ShowPossibleBranches": true,
 			"NumberOfAttemptsLimit":3,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "Game over",
 					"GoToId": "EndGame"
@@ -497,8 +497,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Таксопарк",
 					"GoToId": "8"
@@ -518,8 +518,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Банк",
 					"GoToId": "38"
@@ -539,8 +539,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Далее",
 					"GoToId": "39"
@@ -556,7 +556,7 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":5,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "81",
 					"GoToId": "40"
@@ -576,8 +576,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Далее",
 					"GoToId": "42"
@@ -593,7 +593,7 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":5,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "12",
 					"GoToId": "44"
@@ -613,8 +613,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Далее",
 					"GoToId": "37"
@@ -630,7 +630,7 @@
 			"PuzzleType": 0,
 			"WaitingTime": 3,
 			"NumberOfAttemptsLimit":3,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "SayR7",
 					"GoToId": "41"
@@ -646,7 +646,7 @@
 			"PuzzleType": 0,
 			"WaitingTime": 3,
 			"NumberOfAttemptsLimit":3,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "SayZ7",
 					"GoToId": "44"
@@ -662,8 +662,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Утро",
 					"GoToId": "45"
@@ -691,8 +691,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Далее",
 					"GoToId": "51"
@@ -708,8 +708,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Изучить",
 					"GoToId": "52"
@@ -725,7 +725,7 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":5,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "120",
 					"GoToId": "54"
@@ -745,8 +745,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Банк",
 					"GoToId": "38"
@@ -766,8 +766,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Взломать замок",
 					"GoToId": "19"
@@ -787,8 +787,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Взломать",
 					"GoToId": "21"
@@ -812,7 +812,7 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":5,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "22",
 					"GoToId": "25"
@@ -832,7 +832,7 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":25,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "D2DOTNEXTMSK2019",
 					"GoToId": "55"
@@ -848,7 +848,7 @@
 			"PuzzleType": 0,
 			"WaitingTime": 3,
 			"NumberOfAttemptsLimit":3,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "SelfiePhoto",
 					"GoToId": "25"
@@ -864,8 +864,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Далее",
 					"GoToId": "25"
@@ -881,8 +881,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Крикнуть",
 					"GoToId": "23"
@@ -902,8 +902,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 3,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Далее",
 					"GoToId": "EndGame"
@@ -919,7 +919,7 @@
 			"PuzzleType": 0,
 			"WaitingTime": 3,
 			"NumberOfAttemptsLimit":3,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "Kroniak",
 					"GoToId": "54"
@@ -935,8 +935,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Бежим",
 					"GoToId": "49"
@@ -960,7 +960,7 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":5,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "12",
 					"GoToId": "51"
@@ -980,7 +980,7 @@
 			"PuzzleType": 0,
 			"WaitingTime": 3,
 			"NumberOfAttemptsLimit":5,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "Intermedia",
 					"GoToId": "51"
@@ -996,8 +996,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Банк",
 					"GoToId": "38"
@@ -1017,8 +1017,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Вломиться",
 					"GoToId": "56"
@@ -1038,8 +1038,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Взломать пароль",
 					"GoToId": "58"
@@ -1055,7 +1055,7 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":5,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "Нет",
 					"GoToId": "60"
@@ -1075,8 +1075,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Далее",
 					"GoToId": "61"
@@ -1092,8 +1092,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Поговорить",
 					"GoToId": "62"
@@ -1113,8 +1113,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Взлом",
 					"GoToId": "63"
@@ -1134,8 +1134,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Взломать",
 					"GoToId": "65"
@@ -1151,8 +1151,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Game Over",
 					"GoToId": "EndGame"
@@ -1168,7 +1168,7 @@
 			"PuzzleType": 0,
 			"WaitingTime": 3,
 			"NumberOfAttemptsLimit":3,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "Scream",
 					"GoToId": "60"
@@ -1184,7 +1184,7 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":5,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "44",
 					"GoToId": "66"
@@ -1204,8 +1204,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Далее",
 					"GoToId": "75"
@@ -1221,7 +1221,7 @@
 			"PuzzleType": 0,
 			"WaitingTime": 3,
 			"NumberOfAttemptsLimit":3,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "Random3",
 					"GoToId": "66"
@@ -1237,8 +1237,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Использовать взломщик 9000",
 					"GoToId": "82"
@@ -1254,7 +1254,7 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":5,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "90",
 					"GoToId": "68"
@@ -1274,7 +1274,7 @@
 			"PuzzleType": 0,
 			"WaitingTime": 3,
 			"NumberOfAttemptsLimit":3,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "BlackPR",
 					"GoToId": "68"
@@ -1290,8 +1290,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Крикнуть",
 					"GoToId": "70"
@@ -1311,8 +1311,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "EndGame",
 					"GoToId": "EndGame"
@@ -1328,8 +1328,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Далее",
 					"GoToId": "72"
@@ -1345,7 +1345,7 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "4",
 					"GoToId": "74"
@@ -1365,7 +1365,7 @@
 			"PuzzleType": 0,
 			"WaitingTime": 3,
 			"NumberOfAttemptsLimit":3,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "VermeerPearl",
 					"GoToId": "74"
@@ -1381,8 +1381,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Направиться в офис",
 					"GoToId": "75"
@@ -1398,8 +1398,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Далее",
 					"GoToId": "76"
@@ -1415,8 +1415,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Взломать людей",
 					"GoToId": "77"
@@ -1436,7 +1436,7 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "hack",
 					"GoToId": "78"
@@ -1456,7 +1456,7 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":10,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "Продолжить",
 					"GoToId": "79"
@@ -1476,7 +1476,7 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":10,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "Опять",
 					"GoToId": "90"
@@ -1496,8 +1496,8 @@
 			"PuzzleType": 0,
 			"WaitingTime": 1,
 			"NumberOfAttemptsLimit":3,
-			"ShowPosibleBranches": true,
-			"PosibleBranches": [
+			"ShowPossibleBranches": true,
+			"PossibleBranches": [
 				{
 					"Answer": "Далее",
 					"GoToId": "81"
@@ -1513,7 +1513,7 @@
 			"PuzzleType": 0,
 			"WaitingTime": 3,
 			"NumberOfAttemptsLimit":3,
-			"PosibleBranches": [
+			"PossibleBranches": [
 				{
 					"Answer": "HappyNovember",
 					"GoToId": "77"
@@ -1527,7 +1527,7 @@
 			"Id": "90",
 			"Question": "Вы всех спасли и обезвредили преступника",
 			"PuzzleType": 0,
-			"PosibleBranches": []
+			"PossibleBranches": []
 		},
 		{
 			"IsLastPuzzle": true,
@@ -1535,7 +1535,7 @@
 			"Id": "100",
 			"Question": "Заложники мертвы",
 			"PuzzleType": 0,
-			"PosibleBranches": []
+			"PossibleBranches": []
 		},
 		{
 			"IsLastPuzzle": true,
@@ -1543,7 +1543,7 @@
 			"Id": "EndGame",
 			"Question": "End Game",
 			"PuzzleType": 0,
-			"PosibleBranches": []
+			"PossibleBranches": []
 		}
 	]
 }

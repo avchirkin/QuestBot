@@ -7,7 +7,7 @@
             "Weight": 1,
             "Question": "Добро пожаловать на dotQUEST. Это наш обучающий сценарий. Начать обучение? (Напишите ответ на вопрос, например - да)",
             "PuzzleType": 0,
-            "PosibleBranches": [
+            "PossibleBranches": [
                 {
                     "Answer": "да",
                     "GoToId": "Question"
@@ -25,7 +25,7 @@
             "Weight": 1,
             "Question": "Каждый квест в разделе /scenario - отдельная история. Квест выбираете Вы. Затем телеграм-бот отправляет задание. На задание необходимо дать ответ 1-2 словами, например: алгоритм, Джеффри Рихтер, идиома. Давайте потренируемся и я задам вам простой вопрос: какой сейчас год?",
             "PuzzleType": 0,
-            "PosibleBranches": [
+            "PossibleBranches": [
                 {
                     "Answer": "2019",
                     "GoToId": "SuccessStory"
@@ -56,7 +56,7 @@
             "Weight": 1,
             "Question": "Еще наши сценарии могут переспрашивать у тебя ответы, если ты неправильно отвечаешь. Этот сценарий будет переспрашивать тебя 3 раза. Вопрос простой, как называется наше сообщество? Попробуй пару раз ответить неверно, чтобы посмотреть, как работает механизм повторов.",
             "PuzzleType": 0,
-            "PosibleBranches": [
+            "PossibleBranches": [
               {
                 "Answer": "DotNetRu",
                 "GoToId": "WaitingAndRepeat"
@@ -77,7 +77,7 @@
             "PuzzleType": 0,
             "WaitingTime": 2,
             "NumberOfAttemptsLimit":3,
-            "PosibleBranches": [
+            "PossibleBranches": [
               {
                 "Answer": "DotNext",
                 "GoToId": "Game over"
@@ -95,7 +95,7 @@
             "Id": "Game over",
             "Question": "Обучение окончено, выбирайте сценарии и дерзайте :)",
             "PuzzleType": 0,
-            "PosibleBranches": []
+            "PossibleBranches": []
         }
     ]
 }
